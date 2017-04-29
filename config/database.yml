@@ -1,0 +1,25 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: payu_dev
+  pool: 5
+
+  password:
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: payu_test
+  pool: 5
+
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: payu_prod
+  pool: 5
+
+  password:

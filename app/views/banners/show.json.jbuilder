@@ -1,0 +1,1 @@
+json.extract! @banner, :id, :banner_image, :created_at, :updated_at
