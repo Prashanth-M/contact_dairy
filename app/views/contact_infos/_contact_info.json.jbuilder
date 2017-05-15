@@ -1,2 +1,2 @@
-json.extract! contact_info, :name, :address_type, :address_one, :address_two, :address_three, :area, :city, :pincode, :mobile_one, :mobile_two, :email, :member_type, :phone, :display_picture, :spouse_name, :committee_member, :post, :admission_date, :community_group_id, :created_at, :updated_at
+json.extract! contact_info, :id, :name, :address_type, :address_one, :address_two, :address_three, :area, :city, :pincode, :mobile_one, :mobile_two, :email, :member_type, :phone, :display_picture, :spouse_name, :committee_member, :post, :admission_date, :community_group_id, :created_at, :updated_at
 json.url contact_info_url(contact_info, format: :json)
