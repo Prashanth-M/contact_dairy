@@ -47,6 +47,7 @@ permit_params :name, :address_type, :address_one, :address_two, :address_three, 
 	filter :last_name	
 	filter :email 
 	filter :phone
+	filter :mobile_one
 
 
 	show do |c|

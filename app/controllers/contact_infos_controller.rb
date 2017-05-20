@@ -9,13 +9,13 @@ class ContactInfosController < InheritedResources::Base
 
 
 	def login
-	  	# debugger
-	  	@contact_info = ContactInfo.find_by_mobile_one(params[:mobile_one])
+      @contact_info = ContactInfo.find_by_mobile_one(params[:mobile_one])
+	  	debugger
 
 	    respond_to do |format|
 		  	if @contact_info.present?
-		  		@contact_infos = ContactInfo.all
-				@res = { :status => "Success", :message => "Logged in!", :response => @contact_infos }
+		  		# @contact_infos = ContactInfo.all
+				@res = { :status => "Success", :message => "Logged in!", :response => @contact_info }
 				format.json { render json: @res }
 			else
 				@res = { :status => "Failed", :message => "Mobile number not found"}
