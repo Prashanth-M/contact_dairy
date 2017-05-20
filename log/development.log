@@ -31142,3 +31142,621 @@ ActionController::UnknownFormat (ActionController::UnknownFormat):
   Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
   Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.1ms)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-20 14:52:51 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (22.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.6) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.6) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.3.0) lib/rack/cors.rb:72:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack-cors (0.3.0) lib/rack/cors.rb:72:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.9ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (53.8ms)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCommunityGroups (20170301165508)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (225.0ms)[0m  [1mCREATE TABLE "community_groups" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCommunityGroups (20170301165508)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (34.8ms)[0m  [1mCREATE TABLE "community_groups" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (20.4ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'admin_users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'banners'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'community_groups'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.1ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'contact_infos'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-20 20:59:16 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 33ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-05-20 20:59:16 +0530
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/devise/shared/_links.erb (2.0ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (94.0ms)
+Completed 200 OK in 989ms (Views: 960.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/jquery-ui/keycode.self-ad63cd20acf49dd333bbbc537454d7d475bd610eb5b88de0dca009f0c3d314b1.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/version.self-c8e3d1203da26ea7efdf83c1eabb3f0ba55cb68e463f5ccf0d77bd15ce6a8e61.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin.self-89c26d166d796a2f60e65655a3c1faddfe5fd7fbc73a3b63b9d16f2550e3d26b.css?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.self-2af0dec09da99d687c31fc224e940687a4eb3694e7b38b0871bba475cad86120.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widget.self-fca20bcec06d192f97cffa6e734e24360e227237b8ae7d7e7e60754df7d5444f.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.self-0b7409f97114a33de116bd5429e9df199cbdea3f276d8bd725c4c2c60f244711.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/escape-selector.self-43e4d61501e4ffb1ecba387affbae1eb3e1c863ab0b0e71897851cddd246e50e.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/form.self-711978b53107be2d9ef1b7369beb151b229cefa8c1405a056d3c34262d5b477e.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.self-3a447942586b5719fdd7f1d1a3ac0da9e757a0eb8f4a7cb145f6deb820d2dc54.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/labels.self-c0448a3cb597a9a9429be814ab0e9ed2a14d85604555b4cff897adf3f0415f38.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.self-60f68cb16012ef210c931076ada2d65d54a8c74a2dc71ce383af758460f8b686.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/ie.self-163eb039dcb1e0c3471b7d91386eabb8753da6906e84824c019f9ff56bdb83a6.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/button.self-659b51f6fb5303f90ed8cf551509063770a50168a15795ba834b08f8bf2e0ce0.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.self-f0790a202dcf54fab051e71b042335d5346f9cceb0f645223c1dab93f349a04b.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/data.self-2067c82e6fe39a9cba5623206a5dc28d5c60d26b95cd100855b78cacf72865b8.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/plugin.self-d8f576c8e073ca51f095505f47bd09d306b875404cd90afcbb6338287cfb0247.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/safe-active-element.self-a1f1a1a7dae3269ce03f6fffb2dcc9b4a7490f5d546c65d54417bec3be24b668.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/safe-blur.self-2cc24c46132d51c7724f6371154241b0a81c9bae5d5681d8f62b01ce46236726.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/scroll-parent.self-38e26a71a450a29fb63425e8f589a7046862f927eb0a1dbf6a6c44da05196d2e.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.self-42c3eda0b49f105628cea7580fe38c7ed77467cee384bb2c4e095a2bd0a172e6.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/disable-selection.self-5675f71f2fbbc6857ea700ba843af748b50dbc0150cc87932a7d05ec016bb659.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.self-1a46c2f5b876918e02bf979080e56f57846590cd880721bca5058e84f7f60bae.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/focusable.self-426e99e67d1f1bd4cb444fd878ee63a6de1f5d1d61451e43022c86214b9eec64.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/position.self-1b49c8c521e67a4a88bfdad6b4d944d33686d25009a0e40a1e170acdd7b6962a.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/tabbable.self-f3f62ceed772d3a325cebd6a03221f8a8cb02c6150f4feba738c6525a2953690.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/unique-id.self-66e85ac85cd0b6b8b1bb89369fc65f608f716869dc0930862a8d421a57a9580a.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.self-2bd687f9580c0be4213c50b4bb1211c28ceedb045eba954e63d40bfbb4d1affd.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.self-6e5e1f07a29b5a89ec1d359363d2800904e3ae548a38ab2f8eded36746d1adbe.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.self-b7f60535e992224ca66c3f11dc943eba9ef42a9605241e27b9dba24c7efb287e.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/jquery_ui.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-fbed82dc1e31cf860056cce6c02f5bc5831ad5343d68ac3ab17471c9e05e9195.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ab6f686db7db58fd7f370cd6f7a6d7abe6884b8d2a144f42a744c2276587b457.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-8ccb356121a1c40094bb429d6cfac85d9c8ad114fb93730892d9df9986730a0a.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/lib/flash.self-8f05a5d9328ea28fca100b057787fbfb567986513c5f1735ea48fad8f9571c10.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-5dfc6e87bae26cd4a021eb86951d3691ed07e6d2bf242a8eb65dc6965e12096c.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/lib/per_page.self-94323c49402595a22bdea01b8dc3f8103e290d300238ebd49efa26d76d7ee117.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.self-f5c360e8640b40f00640f6e5c7cfe0addeb244ed72e1a9828c52919515d23cf1.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/initializers/datepicker.self-f8ac66c85afd35ee1555c09a2418efc7a7930e1f6dd783461379c2bb2184f80e.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/initializers/filters.self-9b9312d6bed532db668c5417a009b7fb7caf58f33299783ed02c2c72340a498a.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/initializers/tabs.self-65de8b1688d4f8782c04bf07ba6314d3c8b33b9391a482a07214ac4df99dd904.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started GET "/assets/active_admin/print.self-26fabf11376a605d851096221557758f3b4184505c3814e0de23277ddc87f98f.css?body=1" for 127.0.0.1 at 2017-05-20 20:59:17 +0530
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-05-20 20:59:19 +0530
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rpUNZOGHPtAqMBDZx0K8pIfbs0n9oQEYy3Ch+kRtBg5WJ8xqK+hVQgo5A4t6EfuW1a4z8f+4ffZxg5hQsooz5Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mAdminUser Load (28.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1  ORDER BY "admin_users"."id" ASC LIMIT 1  [["email", "admin@example.com"]]
+Completed 401 Unauthorized in 225ms (ActiveRecord: 28.9ms)
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rpUNZOGHPtAqMBDZx0K8pIfbs0n9oQEYy3Ch+kRtBg5WJ8xqK+hVQgo5A4t6EfuW1a4z8f+4ffZxg5hQsooz5Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/devise/shared/_links.erb (0.4ms)
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (29.4ms)
+Completed 200 OK in 380ms (Views: 173.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-05-20 20:59:29 +0530
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JVmM84aHrqUhRbalko+9hf5so3buNnO8je+srNqtc/Ld6039TOjFNwFMpfcv3Pq3rBkjzuwvD1I3HJUGLEpGGQ==", "admin_user"=>{"email"=>"prashanth.m@pacewisdom.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (9.9ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["email", "prashanth.m@pacewisdom.com"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "admin_users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "admin_users"."id" = $5[0m  [["last_sign_in_at", "2017-04-29 06:56:58.878942"], ["current_sign_in_at", "2017-05-20 15:29:29.212124"], ["sign_in_count", 13], ["updated_at", "2017-05-20 15:29:29.213239"], ["id", 1]]
+  [1m[35m (9.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 208ms (ActiveRecord: 19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-20 20:59:29 +0530
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/page/index.html.arb (148.5ms)
+Completed 200 OK in 193ms (Views: 172.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/contact_infos" for 127.0.0.1 at 2017-05-20 20:59:31 +0530
+Processing by Admin::ContactInfosController#index as HTML
+  [1m[35mAdminUser Load (0.4ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (94.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "contact_infos" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "contact_infos" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "contact_infos"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "contact_infos" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mContactInfo Load (11.0ms)[0m  [1mSELECT  "contact_infos".* FROM "contact_infos"  ORDER BY "contact_infos"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mCommunityGroup Load (23.5ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/resource/index.html.arb (526.3ms)
+Completed 200 OK in 556ms (Views: 400.5ms | ActiveRecord: 133.8ms)
+
+
+Started GET "/assets/active_admin/orderable-29374dbb55b0012d78a37c614d573bb3474f0779849b478a147d0f1845ca6617.png" for 127.0.0.1 at 2017-05-20 20:59:32 +0530
+
+
+Started GET "/admin/community_groups" for 127.0.0.1 at 2017-05-20 20:59:34 +0530
+Processing by Admin::CommunityGroupsController#index as HTML
+  [1m[35mAdminUser Load (0.6ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "community_groups" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "community_groups" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "community_groups"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "community_groups" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCommunityGroup Load (0.4ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups"  ORDER BY "community_groups"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mContactInfo Load (1.5ms)[0m  SELECT "contact_infos".* FROM "contact_infos"
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/resource/index.html.arb (204.9ms)
+Completed 200 OK in 217ms (Views: 208.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-d9c2bb73769af777c8a71720d29741f3a499aebd5a043e9a119bd0d9597aed47.png" for 127.0.0.1 at 2017-05-20 20:59:35 +0530
+
+
+Started POST "/login.json" for 127.0.0.1 at 2017-05-20 21:00:23 +0530
+Processing by ContactInfosController#login as JSON
+  Parameters: {"mobile_one"=>"95354522470", "contact_info"=>{"mobile_one"=>"95354522470"}}
+Can't verify CSRF token authenticity
+  [1m[36mContactInfo Load (0.5ms)[0m  [1mSELECT  "contact_infos".* FROM "contact_infos" WHERE "contact_infos"."mobile_one" = $1 LIMIT 1[0m  [["mobile_one", 95354522470]]
+Completed 200 OK in 18603ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login.json" for 127.0.0.1 at 2017-05-20 21:00:50 +0530
+Processing by ContactInfosController#login as JSON
+  Parameters: {"mobile_one"=>"9535422470", "contact_info"=>{"mobile_one"=>"9535422470"}}
+Can't verify CSRF token authenticity
+  [1m[35mContactInfo Load (0.5ms)[0m  SELECT  "contact_infos".* FROM "contact_infos" WHERE "contact_infos"."mobile_one" = $1 LIMIT 1  [["mobile_one", 9535422470]]
+Completed 200 OK in 3863ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login.json" for 127.0.0.1 at 2017-05-20 21:00:54 +0530
+Processing by ContactInfosController#login as JSON
+  Parameters: {"mobile_one"=>"9535422470", "contact_info"=>{"mobile_one"=>"9535422470"}}
+Can't verify CSRF token authenticity
+  [1m[36mContactInfo Load (0.4ms)[0m  [1mSELECT  "contact_infos".* FROM "contact_infos" WHERE "contact_infos"."mobile_one" = $1 LIMIT 1[0m  [["mobile_one", 9535422470]]
+Completed 200 OK in 695ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+DEPRECATION WARNING: Active Admin: using `action_item` without a name is deprecated! Use `action_item(:edit)`. (called from action_item at /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/lib/active_admin/dsl.rb:92)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-20 21:06:21 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::DashboardController#index as HTML
+  [1m[35mAdminUser Load (0.5ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/page/index.html.arb (453.0ms)
+Completed 200 OK in 489ms (Views: 459.7ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/active_admin.self-89c26d166d796a2f60e65655a3c1faddfe5fd7fbc73a3b63b9d16f2550e3d26b.css?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/version.self-c8e3d1203da26ea7efdf83c1eabb3f0ba55cb68e463f5ccf0d77bd15ce6a8e61.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/datepicker.self-2af0dec09da99d687c31fc224e940687a4eb3694e7b38b0871bba475cad86120.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/keycode.self-ad63cd20acf49dd333bbbc537454d7d475bd610eb5b88de0dca009f0c3d314b1.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widget.self-fca20bcec06d192f97cffa6e734e24360e227237b8ae7d7e7e60754df7d5444f.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/controlgroup.self-0b7409f97114a33de116bd5429e9df199cbdea3f276d8bd725c4c2c60f244711.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/escape-selector.self-43e4d61501e4ffb1ecba387affbae1eb3e1c863ab0b0e71897851cddd246e50e.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/labels.self-c0448a3cb597a9a9429be814ab0e9ed2a14d85604555b4cff897adf3f0415f38.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/form.self-711978b53107be2d9ef1b7369beb151b229cefa8c1405a056d3c34262d5b477e.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/form-reset-mixin.self-3a447942586b5719fdd7f1d1a3ac0da9e757a0eb8f4a7cb145f6deb820d2dc54.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/checkboxradio.self-60f68cb16012ef210c931076ada2d65d54a8c74a2dc71ce383af758460f8b686.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/button.self-659b51f6fb5303f90ed8cf551509063770a50168a15795ba834b08f8bf2e0ce0.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/ie.self-163eb039dcb1e0c3471b7d91386eabb8753da6906e84824c019f9ff56bdb83a6.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/mouse.self-f0790a202dcf54fab051e71b042335d5346f9cceb0f645223c1dab93f349a04b.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/data.self-2067c82e6fe39a9cba5623206a5dc28d5c60d26b95cd100855b78cacf72865b8.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/plugin.self-d8f576c8e073ca51f095505f47bd09d306b875404cd90afcbb6338287cfb0247.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/safe-active-element.self-a1f1a1a7dae3269ce03f6fffb2dcc9b4a7490f5d546c65d54417bec3be24b668.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/safe-blur.self-2cc24c46132d51c7724f6371154241b0a81c9bae5d5681d8f62b01ce46236726.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/scroll-parent.self-38e26a71a450a29fb63425e8f589a7046862f927eb0a1dbf6a6c44da05196d2e.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/draggable.self-42c3eda0b49f105628cea7580fe38c7ed77467cee384bb2c4e095a2bd0a172e6.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/disable-selection.self-5675f71f2fbbc6857ea700ba843af748b50dbc0150cc87932a7d05ec016bb659.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/resizable.self-1a46c2f5b876918e02bf979080e56f57846590cd880721bca5058e84f7f60bae.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/focusable.self-426e99e67d1f1bd4cb444fd878ee63a6de1f5d1d61451e43022c86214b9eec64.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/position.self-1b49c8c521e67a4a88bfdad6b4d944d33686d25009a0e40a1e170acdd7b6962a.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/tabbable.self-f3f62ceed772d3a325cebd6a03221f8a8cb02c6150f4feba738c6525a2953690.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/unique-id.self-66e85ac85cd0b6b8b1bb89369fc65f608f716869dc0930862a8d421a57a9580a.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/dialog.self-2bd687f9580c0be4213c50b4bb1211c28ceedb045eba954e63d40bfbb4d1affd.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/sortable.self-6e5e1f07a29b5a89ec1d359363d2800904e3ae548a38ab2f8eded36746d1adbe.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery-ui/widgets/tabs.self-b7f60535e992224ca66c3f11dc943eba9ef42a9605241e27b9dba24c7efb287e.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/jquery_ui.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/base.self-ab2cb3098b53fe7d229937d768d701e8f4013f2a5aea7988d8f2149fa40426db.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/lib/batch_actions.self-fbed82dc1e31cf860056cce6c02f5bc5831ad5343d68ac3ab17471c9e05e9195.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.self-ab6f686db7db58fd7f370cd6f7a6d7abe6884b8d2a144f42a744c2276587b457.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.self-8ccb356121a1c40094bb429d6cfac85d9c8ad114fb93730892d9df9986730a0a.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/lib/flash.self-8f05a5d9328ea28fca100b057787fbfb567986513c5f1735ea48fad8f9571c10.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/lib/has_many.self-ece319debdc01ca5096ae8ac6c130ffc0decab382543b4b94e18591375d3d3bb.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.self-5dfc6e87bae26cd4a021eb86951d3691ed07e6d2bf242a8eb65dc6965e12096c.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/lib/per_page.self-94323c49402595a22bdea01b8dc3f8103e290d300238ebd49efa26d76d7ee117.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.self-f5200d732ec9ffd4ee8fd1fe11524ad7b54a67f6c0ef447a29d119ece2dcecdb.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.self-f96f2ec2a32c4bc4da4292cc74bddeca0bb223d81a421c98c4d613632860945e.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/ext/jquery.self-da8dafbbe883092bcae73f35a8caf4ae6170fe7d8130ae7039a233f9b509c757.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/initializers/batch_actions.self-f5c360e8640b40f00640f6e5c7cfe0addeb244ed72e1a9828c52919515d23cf1.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/initializers/datepicker.self-f8ac66c85afd35ee1555c09a2418efc7a7930e1f6dd783461379c2bb2184f80e.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/initializers/filters.self-9b9312d6bed532db668c5417a009b7fb7caf58f33299783ed02c2c72340a498a.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/initializers/tabs.self-65de8b1688d4f8782c04bf07ba6314d3c8b33b9391a482a07214ac4df99dd904.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/assets/active_admin/print.self-26fabf11376a605d851096221557758f3b4184505c3814e0de23277ddc87f98f.css?body=1" for 127.0.0.1 at 2017-05-20 21:06:22 +0530
+
+
+Started GET "/admin/contact_infos" for 127.0.0.1 at 2017-05-20 21:06:32 +0530
+Processing by Admin::ContactInfosController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "contact_infos" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "contact_infos" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "contact_infos"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "contact_infos" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mContactInfo Load (0.6ms)[0m  SELECT  "contact_infos".* FROM "contact_infos"  ORDER BY "contact_infos"."id" desc LIMIT 30 OFFSET 0
+  [1m[36mCommunityGroup Load (0.2ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "community_groups".* FROM "community_groups" WHERE "community_groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCommunityGroup Load (0.3ms)[0m  [1mSELECT "community_groups".* FROM "community_groups"[0m
+  Rendered /home/prashanth/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-a7f75368539c/app/views/active_admin/resource/index.html.arb (387.5ms)
+Completed 200 OK in 399ms (Views: 388.4ms | ActiveRecord: 5.1ms)

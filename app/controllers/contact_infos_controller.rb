@@ -10,7 +10,6 @@ class ContactInfosController < InheritedResources::Base
 
 	def login
       @contact_info = ContactInfo.find_by_mobile_one(params[:mobile_one])
-	  	debugger
 
 	    respond_to do |format|
 		  	if @contact_info.present?
